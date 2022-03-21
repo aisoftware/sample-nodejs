@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
 
+/*
 var LoremIpsum = require('lorem-ipsum').LoremIpsum;
 
 var lorem = new LoremIpsum({
@@ -15,7 +16,8 @@ var lorem = new LoremIpsum({
   }
 });
 
-//app.get('/', (req, res) => res.send(lorem.generateParagraphs(7)))
+app.get('/', (req, res) => res.send(lorem.generateParagraphs(7)))
+*/
 
 // Mods
 app.get('/', function (req, res) {
